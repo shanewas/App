@@ -12,91 +12,12 @@
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-
-
-
-
-
-
-
-
-
-        <!-- CSS code from Bootply.com editor -->
-        
-        <style type="text/css">
-            .navbar-static-top {
-  margin-bottom:20px;
-}
-
-i {
-  font-size:16px;
-}
-
-.nav > li > a {
-  color:#787878;
-}
-  
-footer {
-  margin-top:20px;
-  padding-top:20px;
-  padding-bottom:20px;
-  background-color:#efefef;
-}
-
-/* count indicator near icons */
-.nav>li .count {
-  position: absolute;
-  bottom: 12px;
-  right: 6px;
-  font-size: 10px;
-  font-weight: normal;
-  background: rgba(51,200,51,0.55);
-  color: rgba(255,255,255,0.9);
-  line-height: 1em;
-  padding: 2px 4px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-}
-
-/* indent 2nd level */
-.list-unstyled li > ul > li {
-   margin-left:10px;
-   padding:8px;
-}
-        </style>
+        <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css" >
     </head>
-    
-    <!-- HTML code from Bootply.com editor -->
-    
     <body  >
-        
-        <!-- Header -->
-<div id="top-nav" class="navbar navbar-inverse navbar-static-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-toggle"></span>
-      </button>
-      <a class="navbar-brand" href="#">Dashboard</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        
-        <li class="dropdown">
-          <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Admin <span class="caret"></span></a>
-          <ul id="g-account-menu" class="dropdown-menu" role="menu">
-            <li><a href="#">My Profile</a></li>
-          </ul>
-        </li>
-        <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
-      </ul>
-    </div>
-  </div><!-- /container -->
-</div>
-<!-- /Header -->
+        <?php
+            include("Page_parts/header.php");
+        ?>
 
 <!-- Main -->
 <div class="container">
@@ -223,73 +144,14 @@ footer {
                 </a>
               </div>
               
-              <hr>
               
-              <div class="panel panel-default">
-                  <div class="panel-heading"><h4>Reports</h4></div>
-                  <div class="panel-body">
-                    
-                    <small>Success</small>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%">
-                        <span class="sr-only">72% Complete</span>
-                      </div>
-                    </div>
-                    <small>Info</small>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                        <span class="sr-only">20% Complete</span>
-                      </div>
-                    </div>
-                    <small>Warning</small>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                        <span class="sr-only">60% Complete (warning)</span>
-                      </div>
-                    </div>
-                    <small>Danger</small>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                        <span class="sr-only">80% Complete</span>
-                      </div>
-                    </div>
+            <?php
+                include("Page_parts/Panels/report_panel.php");
+            ?>             
 
-                  </div><!--/panel-body-->
-              </div><!--/panel-->
-	
-			  <hr>              
-
-			  <!--tabs-->
-              <div class="container">
-                <div class="col-md-4">
-                <ul class="nav nav-tabs" id="myTab">
-                  <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
-                  <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                  <li><a href="#settings" data-toggle="tab">Settings</a></li>
-                </ul>
-                
-                <div class="tab-content">
-                  <div class="tab-pane active" id="profile">
-                    <h4><i class="glyphicon glyphicon-user"></i></h4>
-                    Lorem profile dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    <p>Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                      dolor, in sagittis nisi.</p>
-                  </div>
-                  <div class="tab-pane" id="messages">
-                    <h4><i class="glyphicon glyphicon-comment"></i></h4>
-                    Message ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    <p>Quisque mauris augu.</p>
-                  </div>
-                  <div class="tab-pane" id="settings">
-                    <h4><i class="glyphicon glyphicon-cog"></i></h4>
-                    Lorem settings dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    <p>Quisque mauris augue, molestie.</p>
-                  </div>
-                </div>
-              	</div>
-              </div>  
-               
-              <!--/tabs-->
+            <?php
+                include("Page_parts/Panels/tabs.php");
+            ?>
               
               <hr>
               
@@ -303,36 +165,11 @@ footer {
                     </div>
                   </div>
               </div>
-   
-          	</div><!--/col-->
-        	<div class="col-md-6">
-				<div class="panel panel-default">
-                  <div class="panel-heading"><h4>Notices</h4></div>
-                  <div class="panel-body">
-                    
-                  <div class="alert alert-info">
-                    <button type="button" class="close" data-dismiss="alert">×</button>
-                    This is a dismissable alert.. just sayin'.
-                  </div>
-
-                  This is a dashboard-style layout that uses Bootstrap 3. You can use this template as a starting point to create something more unique.
-                  <br><br>
-                  Visit the Bootstrap Playground at <a href="http://bootply.com">Bootply</a> to tweak this layout or discover more useful code snippets.
-                  </div>
-              	</div>
-              
-                <table class="table table-striped">
-                      <thead>
-                        <tr><th>Visits</th><th>ROI</th><th>Source</th></tr>
-                      </thead>
-                      <tbody>
-                        <tr><td>45</td><td>2.45%</td><td>Direct</td></tr>
-                        <tr><td>289</td><td>56.2%</td><td>Referral</td></tr>
-                        <tr><td>98</td><td>25%</td><td>Type</td></tr>
-                        <tr><td>..</td><td>..</td><td>..</td></tr>
-                        <tr><td>..</td><td>..</td><td>..</td></tr>
-                      </tbody>
-               	</table>
+</div><!--/col-->
+ <div class="col-md-6">
+    <?php
+        include("Page_parts/Panels/notice.php");
+    ?>
               
               	<div class="panel panel-default">
                 	<div class="panel-heading">
@@ -381,14 +218,9 @@ footer {
                   </div><!--/panel content-->
                 </div><!--/panel-->
               
-              	<div class="panel panel-default">
-                  <div class="panel-heading"><div class="panel-title"><h4>Engagement</h4></div></div>
-                  <div class="panel-body">	
-                   	<div class="col-xs-4 text-center"><img src="http://placehold.it/80/BBBBBB/FFF" class="img-circle img-responsive"></div>
-                    <div class="col-xs-4 text-center"><img src="http://placehold.it/80/EFEFEF/555" class="img-circle img-responsive"></div>
-                    <div class="col-xs-4 text-center"><img src="http://placehold.it/80/EEEEEE/222" class="img-circle img-responsive"></div>
-                  </div>
-               </div><!--/panel-->
+        <?php
+            include("Page_parts/Panels/engagement.php");
+        ?>
               
 			</div><!--/col-span-6-->
      
