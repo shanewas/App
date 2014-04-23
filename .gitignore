@@ -8,7 +8,6 @@
 bin/
 tmp/
 *.tmp
-*.jpg
 *.bak
 *.swp
 *~.nib
