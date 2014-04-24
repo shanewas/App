@@ -11,15 +11,15 @@
     <body>
         <div class="col-md-3">
                     <!-- Left column -->
-                    <a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Tools</strong></a>  
+                    <!--<a href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Tools</strong></a>  -->
 
                     <hr>
 
                     <ul class="list-unstyled">
                         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
-                                <h5>Settings <i class="glyphicon glyphicon-chevron-down"></i></h5>
+                                <h5>Students <i class="glyphicon glyphicon-chevron-down"></i></h5>
                             </a>
-                            <ul class="list-unstyled collapse in" id="userMenu">
+                            <!--<ul class="list-unstyled collapse in" id="userMenu">
                                 <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
@@ -28,13 +28,14 @@
                                 <li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
+
                         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2">
-                                <h5>Reports <i class="glyphicon glyphicon-chevron-right"></i></h5>
+                                <h5>Departments <i class="glyphicon glyphicon-chevron-right"></i></h5>
                             </a>
 
-                            <ul class="list-unstyled collapse" id="menu2">
+                            <!--<ul class="list-unstyled collapse" id="menu2">
                                 <li><a href="#">Information &amp; Stats</a>
                                 </li>
                                 <li><a href="#">Views</a>
@@ -45,21 +46,22 @@
                                 </li>
                                 <li><a href="#">Alerts</a>
                                 </li>
-                            </ul>
+                            </ul>-->
                         </li>
                         <li class="nav-header">
                             <a href="#" data-toggle="collapse" data-target="#menu3">
-                                <h5>Social Media <i class="glyphicon glyphicon-chevron-right"></i></h5>
+                                <h5>Courses <i class="glyphicon glyphicon-chevron-right"></i></h5>
                             </a>
 
-                            <ul class="list-unstyled collapse" id="menu3">
+                            <!--<ul class="list-unstyled collapse" id="menu3">
                                 <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
                     </ul>
-
-                    <hr>
+                    
+                    
+                   <!-- <hr>
 
                     <a href="#"><strong><i class="glyphicon glyphicon-link"></i> Resources</strong></a>  
 
@@ -86,7 +88,7 @@
                         <li><a href="/61518" title="Bootstrap 3 Slider">Carousel</a></li>
                         <li><a href="/62603">Layout</a></li>
                     </ul>
-
+            -->
                     <hr>
                 </div><!-- /col-3 -->
     </body>
