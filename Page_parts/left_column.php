@@ -17,40 +17,38 @@
 
                     <ul class="list-unstyled">
                         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">
-                                <h5>Students <i class="glyphicon glyphicon-chevron-down"></i></h5>
+                                <h5 class="glyphicon glyphicon-user"> Students <i class="glyphicon glyphicon-chevron-down"></i></h5>
                             </a>
-                            <!--<ul class="list-unstyled collapse in" id="userMenu">
-                                <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
+                            <ul class="list-unstyled collapse in" id="userMenu">
+                                <li class="active"> <a href="#"><i class="glyphicon glyphicon-plus"></i> Add </a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-align-left"></i> List of Students <!--<span class="badge badge-info">4</span>--></a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-list-alt"></i> Results </a></li>
+                                <!--<li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
                                 <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
-                            </ul>-->
+                                <li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>-->
+                            </ul>
                         </li>
 
                         <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2">
-                                <h5>Departments <i class="glyphicon glyphicon-chevron-right"></i></h5>
+                                <h5 class="glyphicon glyphicon-briefcase"> Departments <i class="glyphicon glyphicon-chevron-right"></i></h5>
                             </a>
 
-                            <!--<ul class="list-unstyled collapse" id="menu2">
-                                <li><a href="#">Information &amp; Stats</a>
+                            <ul class="list-unstyled collapse" id="menu2">
+                                <li><a href="#"> Bachelor of Science in Computer Science and Engineering (BSCSE) </a>
                                 </li>
-                                <li><a href="#">Views</a>
+                                <li><a href="#"> Bachelor of Science in Electrical and Electronic Engineering (BSEEE) </a>
                                 </li>
-                                <li><a href="#">Requests</a>
+                                <li><a href="#"> Bachelor of Architecture </a>
                                 </li>
-                                <li><a href="#">Timetable</a>
+                                <li><a href="#"> Bachelor of Pharmacy </a>
                                 </li>
-                                <li><a href="#">Alerts</a>
-                                </li>
-                            </ul>-->
+                            </ul>
                         </li>
                         <li class="nav-header">
                             <a href="#" data-toggle="collapse" data-target="#menu3">
-                                <h5>Courses <i class="glyphicon glyphicon-chevron-right"></i></h5>
+                                <h5 class="glyphicon glyphicon-book"> Courses <i class="glyphicon glyphicon-chevron-right"></i></h5>
                             </a>
 
                             <!--<ul class="list-unstyled collapse" id="menu3">
