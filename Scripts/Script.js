@@ -2,11 +2,7 @@ $(document).ready(function () {
 
     $(".alert").addClass("in").fadeOut(4500);
 
-    $('#addStu').modal({
-        keyboard: false
-    });
-
-    $('#myModal').modal('toggle');
+    $('#myModal').modal('hide');
 
     /* swap open/close side menu icons */
     $('[data-toggle=collapse]').click(function () {
